@@ -1,0 +1,44 @@
+<h5 class="text-center text-light text-decoration-underline mb-4">Top Up diamond Free Fire Murah</h5>
+<div class="container">
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="cari produk..." aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-light btn-light bg-info text-light shadow-lg fw-bold" type="button" id="button-addon2">Cari</button>
+  </div>
+</div>
+
+<h4 class="mb-2 mt-4">Diamonds</h4>
+
+
+<% produk.forEach(e => { %>
+  <% if(e.type === "diamond") { %>
+  <div class="col-6 mb-3">
+    <div class="card shadow-lg text-center">
+      <img src="/img/diamond.png" alt="..." class="card-img-top m-auto" style="width:50%;" />
+      <div class="card-body">
+        <h5 class="card-title text-dark" style="font-size: 16px;"><%= e.name %></h5>
+        <p class="card-text text-success" style="15px">Rp. <%= e.price %></p>
+        <a href="/bayar?idProduk=<%= e.id %>" class="btn btn-info shadow-sm text-light border-2 w-100 fw-bold">Pilih</a>
+      </div>
+    </div>
+  </div>
+  <% } %>
+
+<% }) %>
+
+
+
+<h4 class="mt-4">Membership</h4>
+<% produk.forEach(m => { %>
+ <% if(m.type === "membership") { %>
+  <div class="col-6 mb-2">
+    <div class="card shadow-lg text-center">
+      <img src="/img/diamond.png" alt="..." class="card-img-top m-auto" style="width:50%;" />
+      <div class="card-body">
+        <h5 class="card-title text-dark" style="font-size: 16px;"><%= m.name %></h5>
+        <p class="card-text text-success" style="15px">Rp. <%= m.price %></p>
+        <a href="/bayar?idProduk=<%= m.id %>" class="btn btn-info shadow-sm text-light border-2 w-100 fw-bold">Pilih</a>
+      </div>
+    </div>
+  </div>
+  <% } %>
+<% }) %>

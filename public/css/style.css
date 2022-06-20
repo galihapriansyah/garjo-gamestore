@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+header {
+  font-family: "Secular One", Sans-Serif;
+  border-radius: 0px 0px 90px 90px;
+  height: 90px;
+}
+header h1 span {
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.ig {
+  background-color: #6610f2;
+}
