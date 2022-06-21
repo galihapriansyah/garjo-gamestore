@@ -3,7 +3,7 @@ import expressLayouts from "express-ejs-layouts";
 import cryptoJs from "crypto-js";
 import { loadFile, findProducts } from "./utils/produk.js";
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 app.use(expressLayouts);
