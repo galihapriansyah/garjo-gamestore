@@ -1,11 +1,5 @@
 [
     {
-      "id": "618620221",
-      "type": "diamond",
-      "name": "5 Diamond",
-      "price": "1.000"
-    },
-    {
       "id": "618620229",
       "type": "diamond",
       "name": "50 Diamond",
@@ -15,7 +9,7 @@
       "id": "618620222",
       "type": "diamond",
       "name": "70 Diamond",
-      "price": "10.000"
+      "price": "9.500"
     },
     {
       "id": "618620223",
@@ -27,13 +21,13 @@
       "id": "618620224",
       "type": "diamond",
       "name": "210 Diamond",
-      "price": "30.000"
+      "price": "28.000"
     },
     {
       "id": "618620225",
       "type": "diamond",
       "name": "355 Diamond",
-      "price": "38.000"
+      "price": "37.000"
     },
     {
       "id": "618620226",
@@ -45,24 +39,24 @@
       "id": "618620227",
       "type": "diamond",
       "name": "1450 Diamond",
-      "price": "190.000"
+      "price": "185.000"
     },
     {
       "id": "618620228",
       "type": "diamond",
       "name": "2180 Diamond",
-      "price": "290.000"
+      "price": "280.000"
     },
     {
       "id": "61862022100",
       "type": "membership",
       "name": "Membership Mingguan",
-      "price": "35.000"
+      "price": "30.000"
     },
     {
       "id": "61862022200",
       "type": "membership",
       "name": "Membership Bulanan",
-      "price": "110.000"
+      "price": "140.000"
     }
 ]
