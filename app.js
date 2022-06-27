@@ -19,6 +19,13 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/free-fire', (req, res) => {
+  res.render("ff", {
+    layout: "layouts/main-layout",
+    title: "FF_STORE | FREE FIRE"
+  })
+})
+
 
 app.get('/bayar', (req, res) => {
   const product = findProducts(req.query.idProduk);
